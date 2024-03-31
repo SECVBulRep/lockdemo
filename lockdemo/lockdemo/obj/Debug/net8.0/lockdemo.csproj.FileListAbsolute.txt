@@ -1,0 +1,14 @@
+C:\Projects\lockdemo\lockdemo\lockdemo\bin\Debug\net8.0\lockdemo.exe
+C:\Projects\lockdemo\lockdemo\lockdemo\bin\Debug\net8.0\lockdemo.deps.json
+C:\Projects\lockdemo\lockdemo\lockdemo\bin\Debug\net8.0\lockdemo.runtimeconfig.json
+C:\Projects\lockdemo\lockdemo\lockdemo\bin\Debug\net8.0\lockdemo.dll
+C:\Projects\lockdemo\lockdemo\lockdemo\bin\Debug\net8.0\lockdemo.pdb
+C:\Projects\lockdemo\lockdemo\lockdemo\obj\Debug\net8.0\lockdemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\lockdemo\lockdemo\lockdemo\obj\Debug\net8.0\lockdemo.AssemblyInfoInputs.cache
+C:\Projects\lockdemo\lockdemo\lockdemo\obj\Debug\net8.0\lockdemo.AssemblyInfo.cs
+C:\Projects\lockdemo\lockdemo\lockdemo\obj\Debug\net8.0\lockdemo.csproj.CoreCompileInputs.cache
+C:\Projects\lockdemo\lockdemo\lockdemo\obj\Debug\net8.0\lockdemo.dll
+C:\Projects\lockdemo\lockdemo\lockdemo\obj\Debug\net8.0\refint\lockdemo.dll
+C:\Projects\lockdemo\lockdemo\lockdemo\obj\Debug\net8.0\lockdemo.pdb
+C:\Projects\lockdemo\lockdemo\lockdemo\obj\Debug\net8.0\lockdemo.genruntimeconfig.cache
+C:\Projects\lockdemo\lockdemo\lockdemo\obj\Debug\net8.0\ref\lockdemo.dll

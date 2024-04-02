@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LeCj9K+dfY8tesxl6SHZR1tzMTh417gfQC3U676/xlYgqcvNB8aEDC9iy6PdkLerdt29ejPxXE+yzT8uDfDvbA==",
+  "dgSpecHash": "S7AFp25OxGXtEpFQYap8abPQn9opARpynWP8U+2/v6EKbLI6m5fCljbQ4t7Q6rHwGc3vX4vro3dVl4Cpc56JKA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\lockdemo\\lockdemo\\lockdemo\\lockdemo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projects\\MyGit\\lockdemo\\lockdemo\\lockdemo\\lockdemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bulat\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.1\\microsoft.netcore.app.ref.8.0.1.nupkg.sha512",
+    "C:\\Users\\Bulat\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.1\\microsoft.windowsdesktop.app.ref.8.0.1.nupkg.sha512",
+    "C:\\Users\\Bulat\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.1\\microsoft.aspnetcore.app.ref.8.0.1.nupkg.sha512",
+    "C:\\Users\\Bulat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.1\\microsoft.netcore.app.host.win-x64.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

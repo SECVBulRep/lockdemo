@@ -12,9 +12,11 @@ int finished =0, target=0;
 int cnt =1;
 
 
-//using (var locker = new CasLock())
+using (var locker = new CasLock())
 //using (var locker = new SemaphoreLock())
-using (var locker = new SpinLock())
+//using (var locker = new SpinLock())
+//using (var locker = new SemaphoreSlimLock())
+//using (var locker = new MonitorLock())  
 {
     var stopwatch = Stopwatch.StartNew();
     
@@ -74,6 +76,51 @@ interface ILocker : IDisposable
     void Enter();
     void Release();
 }
+
+
+public class MonitorLock : ILocker
+{
+
+    private object _o = new ();
+    
+    public void Dispose()
+    {
+    }
+
+    public void Enter()
+    {
+        Monitor.Enter(_o);
+    }
+
+    public void Release()
+    {
+        Monitor.Exit(_o);
+    }
+}
+
+
+public class SemaphoreSlimLock : ILocker
+{
+    private SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(initialCount: 1, maxCount: 1);
+    
+    
+    public void Dispose()
+    {
+        _semaphoreSlim.Dispose();
+        _semaphoreSlim = null;
+    }
+
+    public void Enter()
+    {
+        _semaphoreSlim.Wait();
+    }
+
+    public void Release()
+    {
+        _semaphoreSlim.Release();
+    }
+}
+
 
 
 public class SpinLock : ILocker

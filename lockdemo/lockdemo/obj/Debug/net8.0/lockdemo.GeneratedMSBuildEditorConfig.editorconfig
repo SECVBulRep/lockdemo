@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lockdemo
-build_property.ProjectDir = C:\Projects\lockdemo\lockdemo\lockdemo\
+build_property.ProjectDir = C:\Projects\MyGit\lockdemo\lockdemo\lockdemo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
